@@ -114,7 +114,6 @@ articleView.create = function() {
   $('#article-json').val(JSON.stringify(article) + ',');
 };
 
-
 articleView.initIndexPage = function() {
   articleView.populateFilters();
   articleView.handleCategoryFilter();
